@@ -34,7 +34,9 @@ header ul {
 header ul li {
   width: 130px;
   margin: 20px;
+  padding: 10px 0;
   list-style-type: none;
+  border-bottom: 3px solid var(--cor-verde);
 }
 
 header ul li a {
@@ -43,10 +45,9 @@ header ul li a {
   font-weight: 500;
   color: var(--cor-azul);
   text-decoration: none;
-  border-bottom: 3px solid var(--cor-verde);
 }
 
-header ul li a:hover {
+header ul li:hover {
   background-color: var(--cor-verde);
   border-radius: 5px;
 }
@@ -72,7 +73,7 @@ main {
   color: var(--cor-verde);
 }
 
-.contato-introducao__descricao{
+.contato-introducao__descricao {
   padding: 10px;
   font-size: 20px;
   text-align: justify;
@@ -204,7 +205,6 @@ footer {
 }
 
 @media (max-width: 480px) {
-
   header img {
     max-width: 100%;
   }
@@ -246,4 +246,3 @@ footer {
     font-size: 16px;
   }
 }
-
