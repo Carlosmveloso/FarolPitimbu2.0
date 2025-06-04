@@ -218,6 +218,11 @@ footer {
     gap: 10px;
   }
 
+  .informacoes-de-contato {
+    flex-flow: column wrap;
+    gap: 10px;
+  }
+
   .contato-introducao__titulo {
     font-size: 32px;
   }
