@@ -225,6 +225,10 @@ footer {
   header img {
     max-width: 100%;
   }
+
+  header ul li {
+    margin: 5px;
+  }
   
   .usuarios {
     width: 100%;

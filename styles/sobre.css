@@ -280,6 +280,10 @@ footer {
     max-width: 100%;
   }
 
+  header ul li {
+    margin: 5px;
+  }
+
   .introducao__quem {
     display: none;
   }
